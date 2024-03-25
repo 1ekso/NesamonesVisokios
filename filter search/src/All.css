@@ -1,0 +1,26 @@
+.rudasis-lokys {
+    cursor: pointer;
+    position: relative;
+    float: left;
+    width: 50%;
+  }
+  
+  .rudasis-lokys img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .rudasis-lokys.expanded {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 9999;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  
